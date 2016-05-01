@@ -5,7 +5,6 @@
 # - If the number does not contain 3, 5, or 7 as a prime factor,
 #   just pass the number's digits straight through.
 
-
 VERSION = 1
 
 class Raindrops
