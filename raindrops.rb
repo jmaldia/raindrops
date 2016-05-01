@@ -12,16 +12,6 @@ class Raindrops
   value = ""
 
   def self.convert(number)
-    # if number % 3 == 0
-    #   "Pling"
-    # elsif number % 5 == 0
-    #   "Plang"
-    # elsif number % 7 == 0
-    #   "Plong"
-    # else
-    #   number.to_s
-    # end
-
     if number % 3 == 0 || number % 5 == 0 || number % 7 == 0
       if number % 3 == 0
         value = "#{value}Pling"
@@ -34,12 +24,10 @@ class Raindrops
       if number % 7 == 0
         value = "#{value}Plong"
       end
-
       value
     else
       number.to_s
     end
-
   end
 
 end
