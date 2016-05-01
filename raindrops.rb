@@ -44,32 +44,3 @@ class Raindrops
   end
 
 end
-
-
-# class Raindrops
-
-#   value = ""
-
-#   def self.convert(number)
-#     if number % 3 == 0
-#       value = value + "Pling"
-#     end
-
-#     if number % 5 == 0
-#       value = value + "Plang"
-#     end
-
-#     if number % 7 == 0
-#       value = value + "Plong"
-#     end
-
-#     # if value != ""
-#     #   value
-#     # else
-#     #   abort
-#     #   value
-#     # end
-
-#   end
-
-# end
